@@ -1,9 +1,9 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  testEnvironment: 'jsdom',
-  setupFilesAfterEnv: [path.resolve(__dirname, 'jest.setup.js')],
+  testEnvironment: "jsdom",
+  setupFilesAfterEnv: [path.resolve(__dirname, "jest.setup.js")],
   moduleNameMapper: {
-    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
+    "\\.(css|less|scss|sass)$": "identity-obj-proxy",
   },
 };
